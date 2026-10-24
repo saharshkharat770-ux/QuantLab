@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #050B14;
+  --color-sidebar: #07111F;
+  --color-surface: #0A1524;
+  --color-surface-elevated: #0D1B2D;
+  --color-border: #1B3048;
+  --color-border-secondary: #243D57;
+  --color-text-primary: #EAF2FF;
+  --color-text-secondary: #9BB0CA;
+  --color-text-muted: #7186A3;
+  --color-positive: #00D6A0;
+  --color-negative: #FF647C;
+  --color-warning: #FFB547;
+  --color-accent: #168BFF;
+  --color-cyan: #22D3EE;
+  --color-violet: #9A7BFF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Tabular numerals for precision financial alignment */
+.tabular-nums, .num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom dark sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B3048;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #243D57;
+}

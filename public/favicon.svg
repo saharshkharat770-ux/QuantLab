@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="qg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="qg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="qg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+  </defs>
+  <!-- Background Dark Rounded Hexagon/Shield -->
+  <rect width="48" height="48" rx="10" fill="#07111F"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="9.5" stroke="#1B3048"/>
+  <!-- Isometric Cube -->
+  <!-- Top Face -->
+  <polygon points="24,10 38,18 24,26 10,18" fill="url(#qg3)"/>
+  <!-- Left Face -->
+  <polygon points="10,18 24,26 24,38 10,30" fill="url(#qg2)"/>
+  <!-- Right Face -->
+  <polygon points="24,26 38,18 38,30 24,38" fill="url(#qg1)"/>
+  <!-- Inner Node Accent -->
+  <circle cx="24" cy="26" r="2.5" fill="#FFFFFF"/>
+</svg>
